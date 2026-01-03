@@ -1,7 +1,0 @@
-Id,Email,Role,IsBlocked,CreatedAt
-5f2395a3-9746-4127-a1d8-4ed25eaeb799,admin@gmail.com,Admin,False,2025-12-31T07:28:52.4234902
-64a5ec70-b1aa-405c-a618-097a5916aac6,doctor@gmail.com,Doctor,False,2025-12-31T10:26:35.3590778
-1dec9343-0ced-4199-bcb8-0f68b1b55301,patient@gmail.com,Patient,False,2025-12-31T10:28:16.0028890
-af603bc5-bbf8-4a53-a76f-b6c2317d3341,patient2@gmail.com,Patient,False,2026-01-02T09:01:26.9976415
-ef3be5ee-9cb7-4aec-a8b1-62514c5b9cf6,patient3@gmail.com,Patient,False,2026-01-02T18:14:17.4147529
-8fc17903-5353-4a37-b1b3-d66ad99c8cb6,patient4@gmail.com,Patient,False,2026-01-02T18:27:17.2776860

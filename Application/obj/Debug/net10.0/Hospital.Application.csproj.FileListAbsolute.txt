@@ -1,0 +1,15 @@
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.csproj.AssemblyReference.cache
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.AssemblyInfoInputs.cache
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.AssemblyInfo.cs
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.csproj.CoreCompileInputs.cache
+C:\Users\dmitr\source\repos\Hospital\Application\bin\Debug\net10.0\Hospital.Application.deps.json
+C:\Users\dmitr\source\repos\Hospital\Application\bin\Debug\net10.0\Hospital.Application.dll
+C:\Users\dmitr\source\repos\Hospital\Application\bin\Debug\net10.0\Hospital.Application.pdb
+C:\Users\dmitr\source\repos\Hospital\Application\bin\Debug\net10.0\Hospital.Domain.dll
+C:\Users\dmitr\source\repos\Hospital\Application\bin\Debug\net10.0\Hospital.Domain.pdb
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.EB8C294B.Up2Date
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.dll
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\refint\Hospital.Application.dll
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\Hospital.Application.pdb
+C:\Users\dmitr\source\repos\Hospital\Application\obj\Debug\net10.0\ref\Hospital.Application.dll

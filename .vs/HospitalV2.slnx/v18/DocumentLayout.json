@@ -1,0 +1,1091 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|solutionrelative:webapplication1\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|solutionrelative:webapplication1\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|solutionrelative:webapplication1\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\middlewares\\tokenauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApi.csproj|solutionrelative:webapplication1\\middlewares\\tokenauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\logging\\efauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\logging\\efauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\files\\fileexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\files\\fileexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\repositories\\sqliteappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\sqliteappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\repositories\\sqlitedoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\sqlitedoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\utils\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\utils\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\repositories\\sqliteuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\sqliteuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\repositories\\sqlitepatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\sqlitepatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\infrastructure\\persistence\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9543C-4413-4BB3-8CDB-71205D19DF02}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\utils\\csvhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\utils\\csvhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\utils\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\utils\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\validators\\userregisterdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\validators\\userregisterdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\validators\\createpatientdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\validators\\createpatientdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\ifileexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ifileexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\application\\dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Application.csproj|solutionrelative:application\\dtos\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F2810-2BC0-4839-B953-31AB0AB91062}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\dmitr\\source\\repos\\webapplication1\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:43:58.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:43:48.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenAuthMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\TokenAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middlewares\\TokenAuthMiddleware.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Middlewares\\TokenAuthMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middlewares\\TokenAuthMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:43:36.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:41:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EfAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Logging\\EfAuditService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Logging\\EfAuditService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Logging\\EfAuditService.cs",
+              "RelativeToolTip": "Infrastructure\\Logging\\EfAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:34:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileExportService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Files\\FileExportService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Files\\FileExportService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Files\\FileExportService.cs",
+              "RelativeToolTip": "Infrastructure\\Files\\FileExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:30:17.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqliteAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SqliteAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteAppointmentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SqliteAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:28:50.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SqliteDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SqliteDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteDoctorRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SqliteDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:28:42.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TablePrinter.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\TablePrinter.cs",
+              "RelativeDocumentMoniker": "Application\\Utils\\TablePrinter.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\TablePrinter.cs",
+              "RelativeToolTip": "Application\\Utils\\TablePrinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:27:22.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\SessionService.cs",
+              "RelativeToolTip": "Application\\Services\\SessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:26:19.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:26:10.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WebApi.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T07:19:13.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Application\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:26:03.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:25:34.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IDoctorRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:25:23.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:25:14.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-25T00:14:10.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ISessionService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\ISessionService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ISessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:24:20.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:24:10.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:22:17.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Application\\Services\\DoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:18:44.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SqliteUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteUserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SqliteUserRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqliteUserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SqliteUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:15:03.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SqlitePatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqlitePatientRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SqlitePatientRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Repositories\\SqlitePatientRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SqlitePatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:14:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Persistence\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\HospitalDbContext.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Infrastructure\\Persistence\\HospitalDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\HospitalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:14:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CsvHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\CsvHelpers.cs",
+              "RelativeDocumentMoniker": "Application\\Utils\\CsvHelpers.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\CsvHelpers.cs",
+              "RelativeToolTip": "Application\\Utils\\CsvHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:11:37.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IdGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\IdGenerator.cs",
+              "RelativeDocumentMoniker": "Application\\Utils\\IdGenerator.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Utils\\IdGenerator.cs",
+              "RelativeToolTip": "Application\\Utils\\IdGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:11:27.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:06:26.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRegisterDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Validators\\UserRegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\UserRegisterDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Validators\\UserRegisterDtoValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\UserRegisterDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:01:44.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreatePatientDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Validators\\CreatePatientDtoValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\CreatePatientDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Validators\\CreatePatientDtoValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\CreatePatientDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:01:37.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IBackupService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IBackupService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBackupService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IBackupService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBackupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:00:31.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ExportService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\ExportService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExportService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\ExportService.cs",
+              "RelativeToolTip": "Application\\Services\\ExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:00:23.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BackupService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\BackupService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BackupService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\BackupService.cs",
+              "RelativeToolTip": "Application\\Services\\BackupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:00:17.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\ReportService.cs",
+              "RelativeToolTip": "Application\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:00:10.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T00:00:04.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Services\\PatientService.cs",
+              "RelativeToolTip": "Application\\Services\\PatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:59:57.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:59:35.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IFileExportService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IFileExportService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IFileExportService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IFileExportService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IFileExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:59:25.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:59:01.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T23:24:20.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:58:46.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:28:38.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:28:26.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPatientRepository.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\Interfaces\\IPatientRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:28:18.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AuthResultDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\AuthResultDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:26:16.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:26:10.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UserRegisterDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:26:02.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\AppointmentDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\AppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:25:54.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CreateAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CreateAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\CreateAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:25:44.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\PatientDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\PatientDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\PatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:25:31.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdatePatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UpdatePatientDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UpdatePatientDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\UpdatePatientDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UpdatePatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:25:15.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreatePatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\CreatePatientDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CreatePatientDto.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Application\\DTOs\\CreatePatientDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\CreatePatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:25:06.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AppointmentStatus.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:15:39.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:15:19.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "Domain\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:07:45.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:07:38.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Appointment.cs",
+              "RelativeToolTip": "Domain\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:07:32.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Doctor.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Doctor.cs",
+              "RelativeToolTip": "Domain\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:07:23.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "Domain\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T23:07:08.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T23:06:25.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "WebApplication1.http",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.http",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.http",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.http",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-24T07:16:04.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T07:15:41.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T16:55:17.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T16:55:11.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Application/Hospital.Application.csproj" Id="24d5b81d-891a-41d2-8151-8f18abffcd8f" />
+  <Project Path="ConsoleClient/Hospital.ConsoleClient.csproj" Id="4fe80f56-943d-4c99-b6ae-f2cb357337ec" />
+  <Project Path="Domain/Hospital.Domain.csproj" Id="143f2810-2bc0-4839-b953-31ab0ab91062" />
+  <Project Path="Infrastructure/Hospital.Infrastructure.csproj" Id="4ac9543c-4413-4bb3-8cdb-71205d19df02" />
+  <Project Path="WebApi/Hospital.WebApi.csproj" />
+</Solution>

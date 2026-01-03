@@ -1,0 +1,235 @@
+Id,UserId,Timestamp,Action,Details
+2285ecc1-3bc4-45cf-ba50-c37feacfdb46,,2025-12-31T17:18:00.8442363,User,Login attempt Email:patient@gmail.com Success:True Message:
+13bd147b-1db2-4689-a38f-479e97f28ca3,1dec9343-0ced-4199-bcb8-0f68b1b55301,2025-12-31T17:19:37.6025003,Apponiment,Booking failed - no available doctor. PatientId:dc15c0a7-31bf-4fa9-9212-400636c3e749 Time:2025-12-31T17:19:07.1370000Z
+a587fd3b-b37a-4598-b6d1-21a4cd1052ef,1dec9343-0ced-4199-bcb8-0f68b1b55301,2025-12-31T17:19:42.7314041,Apponiment,Booking failed - bad request: Сan't create an appointment in the past. (Parameter 'AppointmentTime'). PatientId:dc15c0a7-31bf-4fa9-9212-400636c3e749 DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2025-12-31T17:19:07.1370000Z
+cc6bde62-c289-47ea-ab7f-42d78e16ef8b,1dec9343-0ced-4199-bcb8-0f68b1b55301,2025-12-31T17:19:51.8415784,Apponiment,Booked AppointmentId:dbadaf1f-5644-4573-9562-053755a52114 PatientId:dc15c0a7-31bf-4fa9-9212-400636c3e749 DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-12-31T17:19:07.1370000Z
+0f3f21b2-eb9f-4598-874c-bb76d1e4512f,,2025-12-31T17:20:24.9122875,User,Login attempt Email:doctor@gmail.com Success:True Message:
+81754d85-6501-49d8-8440-ea0831e8b26a,,2025-12-31T17:21:32.5757381,User,Login attempt Email:admin@gmail.com Success:True Message:
+c7a0f3d4-3097-4afa-8f60-99b144a2593d,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T17:23:40.6963528,User,Blocked user. TargetUserId:64a5ec70-b1aa-405c-a618-097a5916aac6 ByUserId:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+3fc58caa-e3a3-416d-9c7f-c13d20465e89,,2025-12-31T17:24:01.6454813,User,Login attempt Email:admin@gmail.com Success:True Message:
+643cb328-2f39-4541-8929-4d13e60e84d9,,2025-12-31T17:24:17.9114304,User,Login attempt Email:doctor@gmail.com Success:False Message:User is blocked.
+19634b33-333f-4699-8d2f-82263a7d8824,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T17:24:32.4097385,User,Unblocked user. TargetUserId:64a5ec70-b1aa-405c-a618-097a5916aac6 ByUserId:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+5f063c07-35a9-4c4e-a199-c815e6fad37f,,2025-12-31T17:24:47.7360610,User,Login attempt Email:doctor@gmail.com Success:True Message:
+7a830497-686a-4db8-ac92-50a58d40edb4,,2025-12-31T17:24:51.5134157,User,Login attempt Email:doctor@gmail.com Success:True Message:
+db3900ff-4d30-4dd8-bdab-9c26a8bb0ad5,,2025-12-31T17:24:52.1012267,User,Login attempt Email:doctor@gmail.com Success:True Message:
+d29b1b79-909b-4296-b353-bcaa393720f3,,2025-12-31T17:40:36.4933835,User,Login attempt Email:admin@gmail.com Success:True Message:
+a6e6044c-1019-4c9c-acae-ae1324d3c3cb,,2025-12-31T17:43:38.5741457,User,Login attempt Email:admin@gmail.com Success:True
+6595e317-2129-4a33-a1dd-f606c65aa72d,,2025-12-31T17:45:03.2445577,User,Login attempt Email:admin@gmail.com Success:FalseMessage:Invalid credentials.
+389780d3-30db-4ee1-a3b0-65454aceacbf,,2025-12-31T18:17:35.9597480,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+1b1459e9-16fd-4a6d-9af3-272de40f983c,,2025-12-31T18:17:47.8389477,User,Login attempt Email: admin@gmail.com Success: True
+4169cd76-f321-49cc-ae21-08c08f382da9,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:20:08.6083122,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+c1ce5669-db05-4470-95bd-49b25de4e537,,2025-12-31T18:31:36.2136333,User,Login attempt Email: admin@gmail.com Success: True
+c4bd4b37-a2aa-44c4-b0c4-be3f114ed5eb,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:31:50.5063674,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+ce9fb75f-b2de-4d05-812b-061f88ee7969,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:32:13.2067885,User,Exported audit CSV. Count:21
+fe3ff40b-4860-40ff-8cf0-d2a23f062b09,,2025-12-31T18:38:35.3725833,User,Login attempt Email: admin@gmail.com Success: True
+4648dbb3-8f1d-4336-8ffa-abbf036b584f,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:38:52.5312406,User,Exported audit CSV. Count:23
+5e89f093-6c77-4553-8990-d7c6a669b708,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:39:00.3276218,Doctor,Exported doctors CSV. Count:1
+d606d320-b6bd-41e4-86ba-0d386c05c8db,,2025-12-31T18:42:16.6178357,User,Login attempt Email: admin@gmail.com Success: True
+36416e4b-12cf-4e08-b32b-d371f1f29936,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2025-12-31T18:42:31.3062135,Patient,Exported patients CSV. Count:1
+55f43de9-a085-4c2c-804d-e24964c6b1ad,,2026-01-01T08:05:53.4212374,User,Login attempt Email: admin@gmail.com Success: True
+0f195e2e-c323-410d-8375-2b710d342266,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:06:11.5466921,User,Exported users CSV. Count:3
+9a6b739a-b370-479e-ade0-13ca87ed8ab3,,2026-01-01T08:07:34.7134878,User,Login attempt Email: admin@gmail.com Success: True
+792d3001-352b-42c6-b74b-8d5f322549fd,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:07:43.3936348,User,Exported users CSV. Count:3
+fc92dfb8-0aa1-4900-897c-7fd37ec1db84,,2026-01-01T08:08:44.6152225,User,Login attempt Email: admin@gmail.com Success: True
+cdf5950b-3d30-43f5-94f7-5e95bbc9f125,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:08:54.5205793,User,Exported users CSV. Count:3
+ea864906-2c33-452c-b32f-5e86c85f4297,,2026-01-01T08:14:44.8096701,User,Login attempt Email: admin@gmail.com Success: True
+c048a22e-b8c2-4294-b69f-5bd32317b36a,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:14:56.9040346,User,Exported users CSV. Count:3
+fceb2fb6-0ed6-47ae-a2b5-99c1e88421f1,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:15:07.8567920,Patient,Exported patients CSV. Count:1
+e133ce5f-1869-4534-ac4f-55b79a570b7a,,2026-01-01T08:19:10.8414761,User,Login attempt Email: admin@gmail.com Success: True
+9c577e58-35ad-419f-a88b-e10dde0f562d,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:19:22.5708776,Patient,Exported patients CSV. Count:1
+e9e16b54-4559-4d9a-b45f-9eb26ca012e4,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:19:36.3206807,Doctor,Exported doctors CSV. Count:1
+27fbdc68-2a9f-4098-b5eb-f345f0061b8b,,2026-01-01T08:23:57.6781388,User,Login attempt Email: admin@gmail.com Success: True
+00e5b0b8-1ff2-4ce2-935f-0ee8a6c1ffb0,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:24:19.8567638,User,Exported audit CSV. Count:40
+0c57e743-c5cd-4656-b978-667a701bd769,,2026-01-01T08:33:24.6408320,User,Login attempt Email: admin@gmail.com Success: True
+c0ea607b-b90b-4549-898f-e6ac3b84733f,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:33:43.5191293,User,Exported audit CSV. Count:42
+d4a2d562-57b6-40f3-b4fb-b58f4bdc6432,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T08:34:01.7867823,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+d26deaca-a0ab-4923-a73c-bacc20d7e4aa,,2026-01-01T12:46:59.2076512,User,Login attempt Email: admin@gmail.com Success: True
+ce28234b-d691-4f5a-a132-ab7c1b3ff0cc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T12:48:13.2538060,User,Imported users CSV. Processed:3 Updated:0 Skipped:3
+4b865a0a-e318-4852-abda-61d6c7ec50fe,,2026-01-01T12:48:56.3658234,User,Login attempt Email: admin@gmail.com Success: True
+b9b593eb-5eff-4b75-812f-237a4409714b,,2026-01-01T12:57:26.6595038,User,Login attempt Email: admin@gmail.com Success: True
+af57d96a-19a1-4d41-8c76-e499d2ae1c61,,2026-01-01T13:01:11.0131585,User,Login attempt Email: admin@gmail.com Success: True
+7decbc85-a3cf-4f70-ae48-f2a2c154673e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:01:23.5960641,User,Imported users CSV. Processed:3 Updated:3 Skipped:0
+7a9ac2c6-e1f8-47de-98a5-36401a5b068e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:01:36.4291412,User,Exported users CSV. Count:3
+ea3fee24-fd0f-4c24-ad9b-651035d99713,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:02:05.8540163,User,Imported users CSV. Processed:3 Updated:3 Skipped:0
+49cb9b94-83d6-4ff2-9cfa-83a046c10d27,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:02:12.0791515,User,Exported users CSV. Count:3
+a8259532-5b8c-4e19-ae1d-f1320f77d971,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:02:36.4119920,User,Imported users CSV. Processed:3 Updated:3 Skipped:0
+0ed2f809-4c26-45c1-8c9b-f974c18ce405,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:02:48.8372339,User,Exported users CSV. Count:3
+48c2b7c9-8ee7-4095-9ed6-ea4fc299f361,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:03:18.0537860,User,Imported users CSV. Processed:3 Updated:3 Skipped:0
+02dc53a9-7ca6-42cc-a39d-a13da3756324,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:03:21.4231842,User,Exported users CSV. Count:3
+6ad0951f-697d-44bf-b48c-f3a3f093f8d0,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:03:39.8691552,User,Imported users CSV. Processed:3 Updated:3 Skipped:0
+70bee87c-297c-4738-87bd-ecb245e01ddf,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:03:42.6107496,User,Exported users CSV. Count:3
+1afec065-030a-4222-ac29-d24315e1fc71,,2026-01-01T13:11:35.4232794,User,Login attempt Email: admin@gmail.com Success: True
+99ae41dc-36a5-4b15-8839-dc45b96626bb,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:13:41.9703378,User,Imported users CSV. Processed:3 Updated:2 Skipped:1
+04ce0c86-06d2-4e31-b6f7-87f1cf738338,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:15:48.9713313,User,Exported users CSV. Count:3
+29aea30e-b801-4e2b-8bee-e5a2bd4598f0,,2026-01-01T13:48:27.5582752,User,Login attempt Email: admin@gmail.com Success: True
+30482749-3c2f-4166-9c7d-7339f0f41dba,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:49:01.7802403,Patient,Exported patients CSV. Count:1
+9e018255-98aa-4704-84d4-f62efe54c655,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:49:12.9645253,Patient,Imported patients CSV. Processed:1 Updated:1 Skipped:0
+1f9bff3b-3d06-4549-83d4-712205f93058,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:49:22.8264108,Patient,Exported patients CSV. Count:1
+c48d19e4-600f-4365-95c8-40732b7f2174,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:49:48.2202431,Patient,Imported patients CSV. Processed:1 Updated:1 Skipped:0
+900222b9-3223-4a98-9e58-47d77081448f,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:49:53.7193819,Patient,Exported patients CSV. Count:1
+f02fb735-2769-4a84-b9bf-14ff66841920,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:50:23.3855688,Patient,Imported patients CSV. Processed:1 Updated:1 Skipped:0
+fd4b1bea-0382-4294-9a1a-784bba124af5,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:50:28.4766419,Patient,Exported patients CSV. Count:1
+9bf8ac55-f9ba-4e09-8489-c5c80c99536e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:58:15.4548423,Patient,Imported patients CSV. Processed:1 Updated:1 Skipped:0
+6ea1e5a3-97e5-4cbc-a292-10a82c5553d4,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T13:58:25.2467396,Patient,Exported patients CSV. Count:1
+05303ccf-50dd-44d0-8e4c-5b47e36804b7,,2026-01-01T14:07:29.8958152,User,Login attempt Email: admin@gmail.com Success: True
+182b75de-1724-4775-978d-f6c824af08a7,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:07:43.5949697,Doctor,Exported doctors CSV. Count:1
+9702ce45-c470-4f7b-8f1c-c7a33d569ff0,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:08:01.8713219,Doctor,Imported doctors CSV. Processed:1 Updated:1 Skipped:0
+e984e7c4-c9a6-4dca-9040-337890843f65,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:08:09.2986575,Doctor,Exported doctors CSV. Count:1
+44fd0b05-d375-4abc-8343-8bb68a749afc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:08:29.3819700,Doctor,Imported doctors CSV. Processed:1 Updated:1 Skipped:0
+f13d33e4-c3fb-4354-9614-a630d0b9ea7c,,2026-01-01T14:27:15.9145043,User,Login attempt Email: admin@gmail.com Success: True
+9fe709dd-1ea0-4d20-932d-b94583fee150,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:27:39.9067401,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+8f0fcab2-8063-46fa-ab7d-92d187bf7c4b,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:27:41.6283675,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+97373a68-ceda-4b6f-abef-28a5d9f8fe4f,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:28:23.1764018,Apponiment,Imported appointments CSV. Processed:8 Updated:2 Skipped:6
+3a17cd16-f5a9-4754-9f94-20d9ab72880a,,2026-01-01T14:30:34.8325382,User,Login attempt Email: admin@gmail.com Success: True
+9df5ab76-2bc0-4a7e-8382-32a0a9a6614f,,2026-01-01T14:31:06.1765356,User,Login attempt Email: admin@gmail.com Success: True
+579d6984-c070-401f-8f05-a9dc036dc06e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:31:24.3561710,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+a1ccc5d2-438c-430e-9762-a0e937115c59,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:31:32.3880377,Apponiment,Imported appointments CSV. Processed:8 Updated:8 Skipped:0
+9208034e-6685-4d57-b9fc-80d37d35d4d8,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T14:31:44.0336308,Apponiment,Exported appointments CSV. Count:8 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+00b571eb-4849-430e-8bec-973e689f3e12,,2026-01-01T16:50:36.3719042,User,Login attempt Email: string Success: FalseMessage: Invalid credentials.
+dab25533-6a73-4b33-9f16-94c0c8ae51dc,,2026-01-01T18:51:16.1896584,User,Login attempt Email: admin@gmail.com Success: True
+996c0f52-2b06-4985-bded-a311d54bc237,,2026-01-01T18:58:00.0212886,User,Login attempt Email: admin@gmail.com Success: True
+a4d4857f-3aae-4322-8803-101cb67ce028,,2026-01-01T18:58:54.9369958,User,Login attempt Email: admin@gmail.com Success: True
+4fd17c25-1ade-4df7-9de7-f4f181e39dd5,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T18:59:06.1521735,Patient,Generated report. From:2026-01-01T18:58:12.8850000Z To:2026-01-01T18:58:12.8850000Z DoctorId:3fa85f64-5717-4562-b3fc-2c963f66afa6 PatientId:3fa85f64-5717-4562-b3fc-2c963f66afa6
+85779119-bf39-4a32-811f-3cdb243059e7,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T18:59:13.5856763,Patient,Generated report. From:2020-01-01T18:58:12.8850000Z To:2028-01-01T18:58:12.8850000Z DoctorId:3fa85f64-5717-4562-b3fc-2c963f66afa6 PatientId:3fa85f64-5717-4562-b3fc-2c963f66afa6
+e5e5b7df-c965-4a93-981c-d2e1a1af3849,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-01T18:59:22.7755770,Patient,Generated report. From:2020-01-01T18:58:12.8850000Z To:2028-01-01T18:58:12.8850000Z DoctorId: PatientId:
+4518ef7c-ae50-48c2-a4ba-281911e23ca1,,2026-01-02T09:01:27.1597771,User,Register attempt Email: patient2@gmail.com Success: True
+2a88cd9d-41d7-48e3-a0f5-41534a7bef4b,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:01:53.4545709,Apponiment,Booking failed - no available doctor. PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f Time:2026-01-02T09:01:50.8960000Z
+bed99bb0-eee6-4394-be9b-398a529b1e68,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:00.4435203,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T09:04:50.8680000Z
+7c103dda-9c8e-4d3f-90dc-cc26ed96e3c5,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:08.7688706,Apponiment,Booked AppointmentId:d0df25cc-74e0-493e-b71d-9b8af9d96426 PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T11:04:50.8680000Z
+3b8c2c48-5597-4bc4-8058-3ce3fd97493d,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:13.6677350,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T23:04:50.8680000Z
+de53793e-1dad-4116-bfae-23ab79f94065,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:20.7433749,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T22:04:50.8680000Z
+1300e752-4e7e-44f7-a635-c7b42d2cd0ba,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:28.0848828,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T21:04:50.8680000Z
+d3c4c8cf-f5f1-4998-8a81-4c89441c6546,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:34.4925269,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T20:04:50.8680000Z
+5f0287a9-a7e6-40b3-9601-6ca018268b06,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:40.3036594,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T19:04:50.8680000Z
+3ac7b051-d8fe-4710-8492-f9d0dfe99f0c,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:42.5450379,Apponiment,Booking failed - bad request: Сan't set an appointment outside of working hours. (Parameter 'appointmentTime'). PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T19:04:50.8680000Z
+89de11b4-0657-43db-9435-4fff00364e47,af603bc5-bbf8-4a53-a76f-b6c2317d3341,2026-01-02T09:05:48.0814730,Apponiment,Booked AppointmentId:d79062db-3a2c-4473-9dc0-9688e5e82bcb PatientId:dc9b0ada-7edc-4806-84f9-c1d551ab048f DoctorId:b4a5880d-23b6-4b98-8236-ee8547552547 Time:2026-01-03T18:04:50.8680000Z
+0d5a9196-6c7b-4e72-b8fc-ddc9bc313296,,2026-01-02T09:06:21.9961418,User,Login attempt Email: admin@gmail.com Success: True
+0c0226b0-458b-47e5-b3ae-1e9c8857c81b,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:06:55.6605011,Patient,Generated report. From:2026-01-02T09:06:54.2650000Z To:2026-01-02T09:06:54.2650000Z DoctorId:3fa85f64-5717-4562-b3fc-2c963f66afa6 PatientId:3fa85f64-5717-4562-b3fc-2c963f66afa6
+43bb27b4-ff39-4353-befd-0725617f43b2,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:07:10.5415241,Patient,Generated report. From: To: DoctorId: PatientId:
+ca199067-8e93-4631-8c87-540f31bb8559,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:07:24.8056802,Patient,Exported report CSV. DoctorId: PatientId: From: To:
+081f26d4-7b03-4e65-b3b3-99d478156e92,,2026-01-02T09:09:08.2867186,User,Login attempt Email: admin@gmail.com Success: True
+aa1c1fbc-88ce-41ab-a4bf-5aad97696a06,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:09:23.6256263,Patient,Generated report. From: To: DoctorId: PatientId:
+f60e87d5-d601-4629-880c-2397006d0869,,2026-01-02T09:10:46.9349287,User,Login attempt Email: admin@gmail.com Success: True
+529eeaea-fa11-4ee8-9d32-6b90c8fdb7fc,,2026-01-02T09:12:20.6853648,User,Login attempt Email: admin@gmail.com Success: True
+8b3c3d9e-f0da-416c-acf9-54069dcf94b9,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:12:34.1795696,Patient,Generated report. From: To: DoctorId: PatientId:
+cd629b0a-0018-4ab8-bc5a-4031cc7ade47,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:12:48.0827879,Patient,Exported report CSV. DoctorId: PatientId: From: To:
+aa3304b2-315d-41b7-893d-c51c210a7663,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:00.2863261,User,Exported users CSV. Count:4
+5a83dbeb-be55-405d-abe1-69551f9e4f2f,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:16.0673194,Patient,Exported patients CSV. Count:2
+ebd27121-cd7c-4616-b981-fecee6dc09d4,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:17.3943860,Patient,Exported patients CSV. Count:2
+ec81003d-f891-4106-b3d8-e5269b55aebb,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:26.4929157,Doctor,Exported doctors CSV. Count:1
+b2c3892e-bfc4-4c26-b73d-c13d957fbac9,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:27.3222860,Doctor,Exported doctors CSV. Count:1
+e69979ad-b96a-4977-b4ca-ed1bbd7b88bc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:38.8103480,User,Exported audit CSV. Count:119
+8620e58d-b463-4eab-b674-59118e6054c2,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:13:49.0906558,Apponiment,Exported appointments CSV. Count:10 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+2474cd90-458f-4019-87dc-77991632faa1,,2026-01-02T09:28:27.5041153,User,Login attempt Email: admin@gmail.com Success: True
+173bf7a3-3f9c-4927-8f61-4400a4ebdf9b,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T09:28:41.9806999,Apponiment,Exported appointments CSV. Count:10 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+be027dc6-801f-4672-95ec-3a93a0071219,,2026-01-02T09:46:17.2101968,User,Login attempt Email: admin@gmail.com Success: True
+fcf4b8ca-687a-4613-abef-c84c3369cec6,,2026-01-02T16:51:07.5422862,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+11823f38-adbd-4f9a-a49e-b0ebe344a2dd,,2026-01-02T16:51:48.9255827,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+cb9e34ba-dfe4-4d46-9c84-063e3e9a6e61,,2026-01-02T16:52:04.9915967,User,Login attempt Email: admin@gmail.com Success: True
+8e120400-3c6a-4551-a8f9-f217606cf986,,2026-01-02T17:00:41.1312605,User,Login attempt Email: admin@gmail.com Success: True
+85d2b0c5-28e9-4921-ba55-33653cef5835,,2026-01-02T17:01:56.0186972,User,Login attempt Email: admin@gmail.com Success: True
+9ac35f2c-2575-4658-b534-1946413df192,,2026-01-02T17:02:15.1564102,User,Login attempt Email: admin@gmail.com Success: True
+64cfa2c6-5787-42c9-a10e-7dcb8804df50,,2026-01-02T17:04:59.6288565,User,Login attempt Email: admin@gmail.com Success: True
+19a3755c-a67f-412c-9d5d-53b7c56cfaa0,,2026-01-02T17:11:16.0491500,User,Login attempt Email: admin@gmail.com Success: True
+cc16dae3-6205-4343-8a69-fa76c85fbea3,,2026-01-02T17:37:11.6196746,User,Login attempt Email: aboba@gmail.com Success: FalseMessage: Invalid credentials.
+af2e0397-b88c-432b-bbda-c207e0c4ea45,,2026-01-02T17:39:36.5055838,User,Login attempt Email: admin@gmail.com Success: True
+bb5f3119-68a6-4611-89ac-92967aa0ddf7,,2026-01-02T17:40:56.2899367,User,Login attempt Email: admin@gmail.com Success: True
+893d655d-1c1b-4794-a879-59487b0538c2,,2026-01-02T17:43:15.4571658,User,Login attempt Email: admin@gmail.com Success: True
+44ad7717-132c-42ea-9668-9b35155f3444,,2026-01-02T18:14:17.4962795,User,Register attempt Email: patient3@gmail.com Success: True
+5d7c30b3-5d78-47b8-a901-9bebb1f160c7,,2026-01-02T18:15:36.0269277,User,Register attempt Email: patient3@gmail.com Success: FalseMessage: Email is already registered.
+1378d139-7482-4a21-8e4a-af3a5bbf9dae,,2026-01-02T18:18:13.6951116,User,Register attempt Email: patient3@gmail.com Success: FalseMessage: Email is already registered.
+278564e5-406c-48cf-9bfc-5cbc2c6c0546,,2026-01-02T18:27:17.3279533,User,Register attempt Email: patient4@gmail.com Success: True
+2d7179b7-7ae1-4ea1-b11a-9078a1cbf8fb,,2026-01-02T19:01:53.1706607,User,Login attempt Email: admin@gmail.com Success: True
+783be964-5163-4e61-9a43-1bf3d6b892dc,,2026-01-02T19:03:03.3879582,User,Login attempt Email: admin@gmail.com Success: True
+c6d7a3f2-af93-40cf-b4b5-d075dd68fce9,,2026-01-02T19:03:38.7972555,User,Login attempt Email: patient1@gmail.com Success: FalseMessage: Invalid credentials.
+a272499c-35a6-4f6f-afeb-7179a017bedb,,2026-01-02T19:03:52.2467272,User,Login attempt Email: patient@gmail.com Success: True
+ba5c7b68-1b4c-4ef1-9bd7-fe77f205dbc1,,2026-01-02T19:05:58.1407927,User,Login attempt Email: patient1@gmail.com Success: FalseMessage: Invalid credentials.
+83f0ad4c-0685-415f-8fb8-7af7bf80d213,,2026-01-02T19:06:18.8256733,User,Login attempt Email: admin@gmail.com Success: True
+9dba9895-5872-4536-87f7-7914bed87fd1,,2026-01-02T19:08:41.5869902,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+85117424-97c4-46d7-adf5-9bd8b869ed81,,2026-01-02T19:08:53.9917691,User,Login attempt Email: admin@gmail.com Success: True
+7e25067b-f7ad-47ff-b937-eaf155c6c0a5,,2026-01-02T19:09:22.4234443,User,Login attempt Email: admin@gmail.com Success: True
+273ec8f0-5aa8-4a75-b39b-3c33f3bd598a,,2026-01-02T19:10:57.2783162,User,Login attempt Email: admin@gmail.com Success: True
+b9050924-307a-42b9-8b5b-8c981e113342,,2026-01-02T19:12:41.1531485,User,Login attempt Email: admin@gmail.com Success: True
+4cfb0739-675f-4317-ba5f-8e7822150019,,2026-01-02T19:13:39.8904526,User,Login attempt Email: admin@gmail.com Success: True
+a72ae3d7-72f4-4f82-8435-a2d25c120500,,2026-01-02T19:26:18.4276384,User,Login attempt Email: admin@gmail.com Success: True
+3d84948b-dafd-4d39-befb-9d2591321fb6,,2026-01-02T20:09:37.9568846,User,Login attempt Email: admin@gmail.com Success: True
+6045b704-6b63-4c51-a854-43e86a6aa089,,2026-01-02T20:10:44.6753031,User,Login attempt Email: admin@gmail.com Success: True
+caad18db-11e7-45b1-a1aa-3e2bdff92030,,2026-01-02T20:11:17.5735960,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+7f4befd2-e133-4391-add5-9452af004702,,2026-01-02T20:11:28.6084357,User,Login attempt Email: admin@gmail.com Success: True
+fd6f7d1b-79f5-4bef-93ec-c82e65e98167,,2026-01-02T20:12:46.9541281,User,Login attempt Email: admin@gmail.com Success: True
+14f9a42a-c05e-4b6c-a086-2d85c481441b,,2026-01-02T20:13:56.3060743,User,Login attempt Email: admin@gmail.com Success: True
+6e3c82f4-33d9-4de9-ad90-46ef9e542b23,,2026-01-02T20:26:17.0743319,User,Login attempt Email: admin@gmail.com Success: True
+ddf76116-e08d-4267-ba3c-19ad12d8bddd,,2026-01-02T20:28:37.1461881,User,Login attempt Email: admin@gmail.com Success: True
+c16b36c9-a545-49a9-b1ee-f6b348d54574,,2026-01-02T20:44:45.5676217,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+8ba11e62-b5ea-4fe9-b19b-6c58c2585103,,2026-01-02T20:44:57.1221578,User,Login attempt Email: admin@gmail.com Success: True
+304441ef-349d-487f-a132-a21a51a128fd,,2026-01-02T20:48:06.5344797,User,Login attempt Email: admin@gmail.com Success: True
+32e93969-e4bd-486a-bd33-e4cf2c060115,,2026-01-02T20:50:19.5981795,User,Login attempt Email: admin@gmail.com Success: True
+e371468b-5f31-49b6-8215-666104501a23,,2026-01-02T20:53:58.6837084,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+1b24825f-47a6-4484-876f-d766559ecc78,,2026-01-02T20:54:11.5731089,User,Login attempt Email: admin@gmail.com Success: True
+d1bee9ef-da83-4c33-8dc4-52f3a377e0d8,,2026-01-02T21:09:38.8533574,User,Login attempt Email: admin@gmail.com Success: True
+e5c06d40-35bf-45dd-8796-cab5d7638818,,2026-01-02T22:02:05.0752636,User,Login attempt Email: admin@gmail.com Success: FalseMessage: Invalid credentials.
+eeabc672-9446-4957-b68c-ff7a7e764d08,,2026-01-02T22:02:16.3981501,User,Login attempt Email: admin@gmail.com Success: True
+d9e8df39-b7bf-4375-8ec4-953346f7302a,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:02:33.2949893,Patient,Generated report. From: To: DoctorId: PatientId:
+1feec575-0ff5-4d6a-9b4d-ebc67976edec,,2026-01-02T22:03:53.0733674,User,Login attempt Email: admin@gmail.com Success: True
+c57d4786-c077-41f3-b3f7-2ca5c5214bfb,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:04:12.2124840,Patient,Generated report. From: To: DoctorId: PatientId:
+476a080e-fcbe-49b6-8f79-05a45dcf2d61,,2026-01-02T22:04:34.0770182,User,Login attempt Email: admin@gmail.com Success: True
+d8d2da8a-646b-4eca-9268-088f1edee13c,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:04:35.6597937,Patient,Generated report. From: To: DoctorId: PatientId:
+2b44fb20-1c90-4884-94ba-05c737fff641,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:04:40.2755284,Patient,Generated report. From: To: DoctorId: PatientId:
+de0dac48-b3c5-4fe7-bc73-b2c7206bdc34,,2026-01-02T22:07:09.5412937,User,Login attempt Email: admin@gmail.com Success: True
+cd251672-211c-4689-a073-1edd74d2be59,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:07:11.2682656,Patient,Generated report. From: To: DoctorId: PatientId:
+67636236-91d2-4f5d-82db-5034cb0adf0a,,2026-01-02T22:10:42.2075710,User,Login attempt Email: admin@gmail.com Success: True
+1ac2ba5d-1f8a-48bc-99a3-726fcb0e75de,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:10:45.5707255,Patient,Exported patients CSV. Count:4
+f0057740-b5c6-45ef-bfac-b6d190cb88c8,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:10:51.8965166,Doctor,Exported doctors CSV. Count:1
+7550a49b-6db8-40df-a548-fd232b6aecaf,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:11:01.2266606,User,Exported users CSV. Count:6
+6fedba54-3047-4621-901f-79f97cfe23a8,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:11:04.4085572,Apponiment,Exported appointments CSV. Count:10 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+d81ac78c-778e-4083-a15b-5213b0260938,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:11:10.2786616,User,Exported audit CSV. Count:183
+6d4547f8-8ea4-4c8d-b3a2-13c54238aeb0,,2026-01-02T22:14:15.2117216,User,Login attempt Email: admin@gmail.com Success: True
+c8cdb9d9-8bce-4860-868b-d7f467b42028,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:14:21.0883912,Patient,Exported patients CSV. Count:4
+a0779bef-93e6-43e2-945f-0426a005ec77,,2026-01-02T22:33:45.1103246,User,Login attempt Email: admin@gmail.com Success: True
+56f53377-e866-4096-bbb3-8d939026f09d,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:34:03.5658142,Patient,Generated report. From: To: DoctorId: PatientId:
+e90d9233-2a7f-477b-a74f-e3afe5c5576e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:34:12.4129441,Patient,Generated report. From: To: DoctorId: PatientId:
+19884a34-6bd2-42d7-b679-d65ee303321e,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:34:18.0225394,Patient,Exported patients CSV. Count:4
+12b67f95-7374-4ad2-80aa-440ba51919dc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:34:44.1484823,Patient,Imported patients CSV. Processed:4 Updated:4 Skipped:0
+869c3314-1f2e-444a-b437-b2423b90916c,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:35:22.3499447,Patient,Imported patients CSV. Processed:4 Updated:4 Skipped:0
+b2333ad3-94a7-4970-b537-979aa59ce90d,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:35:38.2642442,Patient,Imported patients CSV. Processed:4 Updated:4 Skipped:0
+fa4fbb44-f677-46d6-aeb9-912fc777ac21,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:36:42.5084494,Patient,Generated report. From: To: DoctorId: PatientId:
+f03499dd-28fd-4109-8584-29ef7b52d697,,2026-01-02T22:50:25.7714642,User,Login attempt Email: admin@gmail.com Success: True
+784f24ed-6286-4a7a-8f27-5d6dbab477a0,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:51:05.8588832,Patient,Imported patients CSV. Processed:4 Updated:4 Skipped:0
+0ee7b76c-940f-460d-bab1-4fa895412a81,,2026-01-02T22:57:58.4223228,User,Login attempt Email: admin@gmail.com Success: True
+08e613fc-7876-47a5-8267-92099e5f6f9d,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T22:58:22.5465811,Patient,Generated report. From: To: DoctorId: PatientId:
+04640404-c239-46a5-97db-4456ecf26392,,2026-01-02T23:13:06.3386432,User,Login attempt Email: admin@gmail.com Success: True
+14b8d000-141b-4e67-8dfc-cf9c9b76ef13,,2026-01-02T23:14:54.0932309,User,Login attempt Email: admin@gmail.com Success: True
+56b1d985-6d4a-4be6-bd76-e7d3610378ac,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T23:15:14.8238710,User,Blocked user. TargetUserId:1dec9343-0ced-4199-bcb8-0f68b1b55301 ByUserId:5f2395a3-9746-4127-a1d8-4ed25eaeb799
+7697d854-4763-4865-844b-c0ac0266903b,,2026-01-02T23:15:51.6361497,User,Login attempt Email: patient@gmail.com Success: FalseMessage: User is blocked.
+15bf6a7d-6597-4d2f-9fd3-6dbfe5533536,,2026-01-02T23:16:02.6620043,User,Login attempt Email: admin@gmail.com Success: True
+8cb66ce1-73fe-47d6-95fa-623fe21a71ec,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T23:16:13.0398099,User,Unblocked user. TargetUserId: 1dec9343-0ced-4199-bcb8-0f68b1b55301 ByUserId: 5f2395a3-9746-4127-a1d8-4ed25eaeb799
+3ce15331-b1fe-4ed7-a757-b2b7c918d62c,,2026-01-02T23:16:27.7570544,User,Login attempt Email: patient@gmail.com Success: True
+d9e02034-c3c6-4ad7-aad5-a3d3f2d36fcd,,2026-01-02T23:16:35.0328458,User,Login attempt Email: admin@gmail.com Success: True
+e14d789f-1226-4f83-8ffe-088adaa458b2,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T23:16:45.0931342,Patient,Generated report. From: To: DoctorId: PatientId:
+fa118d98-9368-4314-b19a-f78be7aae3ad,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T23:16:47.9832912,Patient,Exported patients CSV. Count:4
+7064516c-e6ab-45dc-95cd-5adb5ac8aae8,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-02T23:17:13.2118710,Patient,Imported patients CSV. Processed:4 Updated:4 Skipped:0
+0e677352-e8fb-4e80-98b1-c8e20d799fe3,,2026-01-03T11:03:09.0809979,User,Login attempt Email: admin@gmail.com Success: True
+30b31207-dbea-4553-86b5-c5d4311b7d63,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T11:03:26.5500396,Patient,Generated report. From: To: DoctorId: PatientId:
+d949d0d0-e1ce-4ac5-bea7-2258ce52b294,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T11:03:28.7076664,Patient,Generated report. From: To: DoctorId: PatientId:
+1b283d67-a40f-42c2-a119-434281ef4feb,,2026-01-03T11:09:19.6034238,User,Login attempt Email: admin@gmail.com Success: True
+3bec4940-bf79-4b83-859b-80f816ccd808,,2026-01-03T11:09:42.8015415,User,Login attempt Email: a@. Success: FalseMessage: Invalid credentials.
+9e735506-99aa-45a7-9d4e-79664448e7e1,,2026-01-03T11:10:05.7415227,User,Login attempt Email: @. Success: FalseMessage: Invalid credentials.
+7051cf08-54d3-40b3-a424-ace25b500099,,2026-01-03T12:12:37.3904611,User,Register attempt Email: patient4@gmail.com Success: FalseMessage: Email is already registered.
+5cbd32e2-4601-41b2-8256-502633d3b056,,2026-01-03T12:19:24.1008608,User,Register attempt Email: patient5@gmail.com Success: True
+297928c2-9c9f-4e0d-957f-6907ea604adf,,2026-01-03T12:19:43.2267925,User,Login attempt Email: admin@gmail.com Success: True
+3c64b4c7-5229-4b4b-99d6-26296828fa23,,2026-01-03T12:20:31.6063697,User,Login attempt Email: admin@gmail.com Success: True
+5bf382b4-66d4-4c48-8220-deb5d2314235,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T12:20:57.7254692,Patient,Generated report. From: To: DoctorId: PatientId:
+165ed96a-d32b-477e-9645-dbe67f5d3bdc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T12:21:06.5979405,Patient,Generated report. From: To: DoctorId: PatientId:
+d95c04a2-319f-4a71-8de8-ed0fe63ab708,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T12:22:59.6607627,Doctor,"Create doctor attempt. Email: doctor2@gmail.com Success: True Message: "
+f4099ed1-1cf9-48bd-8fdb-673b7eeb60f9,,2026-01-03T12:23:57.8650476,User,Login attempt Email: admin@gmail.com Success: True
+5973ab12-8879-4eae-9830-0cc09ba96f8b,,2026-01-03T12:25:05.0028342,User,Login attempt Email: admin@gmail.com Success: True
+c03eed46-7a5a-4a2c-9a08-0fbe517f9ad1,,2026-01-03T12:26:40.6874901,User,Login attempt Email: admin@gmail.com Success: True
+2a606496-a279-4e3e-a491-0d4ebd3ab104,,2026-01-03T12:27:55.6557542,User,Login attempt Email: admin@gmail.com Success: True
+edead49a-936e-48d8-8903-6cd698cda992,,2026-01-03T12:28:42.5041128,User,Login attempt Email: admin@gmail.com Success: True
+fa15ae42-6aa8-44a7-aa89-9dddf69309c7,,2026-01-03T12:30:35.9606644,User,Login attempt Email: admin@gmail.com Success: True
+b51aa727-e179-4ce5-ae03-af7fbb955495,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T12:32:58.1115773,Doctor,"Create doctor attempt. Email: doctor3@gmail.com Success: True Message: "
+d85604c7-4b34-4beb-a2b2-1c91a6f41ce3,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T13:01:12.8087215,Patient,Generated report. From: To: DoctorId: PatientId:
+af4a9a30-182c-49d5-bcc5-db8cb18a64dc,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T13:01:15.2785739,Patient,Generated report. From: To: DoctorId: PatientId:
+cfc2945e-b7f2-4214-ab10-56a8fd08a896,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T13:01:20.2355990,Doctor,Exported doctors CSV. Count:3
+c0b218b5-84cc-4fc8-97e3-7a7dfc5480e4,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T13:01:23.2564034,Patient,Exported patients CSV. Count:5
+920b11cc-3285-4e30-b378-3359519d1262,5f2395a3-9746-4127-a1d8-4ed25eaeb799,2026-01-03T13:01:27.3278118,Apponiment,Exported appointments CSV. Count:10 ByUser:5f2395a3-9746-4127-a1d8-4ed25eaeb799

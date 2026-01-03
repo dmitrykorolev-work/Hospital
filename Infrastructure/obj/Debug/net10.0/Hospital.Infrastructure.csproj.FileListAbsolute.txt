@@ -1,0 +1,17 @@
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.AssemblyInfo.cs
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Infrastructure.deps.json
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Infrastructure.dll
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Infrastructure.pdb
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Application.dll
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Domain.dll
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Application.pdb
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\bin\Debug\net10.0\Hospital.Domain.pdb
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.DEEB3E34.Up2Date
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.dll
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\refint\Hospital.Infrastructure.dll
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\Hospital.Infrastructure.pdb
+C:\Users\dmitr\source\repos\Hospital\Infrastructure\obj\Debug\net10.0\ref\Hospital.Infrastructure.dll

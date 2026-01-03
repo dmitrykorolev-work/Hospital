@@ -1,0 +1,4 @@
+Id,UserId,FirstName,LastName,BirthDate,Phone,Email,Specialty,CreatedAt
+0d661a65-e858-487a-88f8-c60fd1725c82,3ca37bd0-98ec-415a-81f4-e6e9b0f9a1e4,DoctorF2,DoctorF2,1987-05-05T00:00:00.0000000,+987654321,doctor2@gmail.com,Cardiologist,2026-01-03T12:22:59.6474581
+fe5940b2-bea4-4188-a958-e0e7f685970e,5fa7dbcb-fd74-4a4a-bb1a-b34f2fab9dce,DoctorF3,DoctorL3,1894-07-26T00:00:00.0000000,+4352897054,doctor3@gmail.com,Neurologist,2026-01-03T12:32:58.1101460
+b4a5880d-23b6-4b98-8236-ee8547552547,64a5ec70-b1aa-405c-a618-097a5916aac6,First1,Last1,2001-06-25T00:00:00.0000000,+1234567890,doctor@gmail.com,Oncologist,2025-12-31T10:26:35.4731139

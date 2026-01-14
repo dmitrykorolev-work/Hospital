@@ -186,8 +186,7 @@
               "RelativeToolTip": "WebApi\\Initializers\\SuperadminInitializer.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T04:11:45.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T04:11:45.934Z"
             },
             {
               "$type": "Document",
@@ -199,8 +198,7 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\AdminMenu.cs",
               "ViewState": "AgIAAAQCAAAAAAAAAAAiwA4CAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T23:22:34.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T23:22:34.978Z"
             },
             {
               "$type": "Document",
@@ -212,8 +210,7 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\SuperadminMenu.cs",
               "ViewState": "AgIAAKMAAAAAAAAAAAAkwLQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:24:28.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T15:24:28.263Z"
             },
             {
               "$type": "Document",
@@ -225,8 +222,7 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\MainMenu.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAkwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T09:56:09.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T09:56:09.915Z"
             },
             {
               "$type": "Document",
@@ -238,8 +234,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\AuditController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T22:43:54.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T22:43:54.299Z"
             },
             {
               "$type": "Document",
@@ -251,8 +246,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\DoctorController.cs",
               "ViewState": "AgIAAMsAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T22:24:15.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T22:24:15.612Z"
             },
             {
               "$type": "Document",
@@ -264,8 +258,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\PatientController.cs",
               "ViewState": "AgIAAJYAAAAAAAAAAAAowC0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:57:43.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T21:57:43.9Z"
             },
             {
               "$type": "Document",
@@ -277,8 +270,7 @@
               "RelativeToolTip": "Application\\DTOs\\AdminRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:31:38.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T16:31:38.675Z"
             },
             {
               "$type": "Document",
@@ -303,8 +295,7 @@
               "RelativeToolTip": "Application\\Services\\AppointmentService.cs",
               "ViewState": "AgIAAK4AAAAAAAAAAAAIwFYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:21:40.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:21:40.331Z"
             },
             {
               "$type": "Document",
@@ -316,8 +307,7 @@
               "RelativeToolTip": "Application\\Services\\UserService.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAAAHcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T03:34:20.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T03:34:20.838Z"
             },
             {
               "$type": "Document",
@@ -341,8 +331,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:14:17.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T16:14:17.539Z"
             },
             {
               "$type": "Document",
@@ -354,8 +343,7 @@
               "RelativeToolTip": "ConsoleClient\\RequestsService.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAAAcwM0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:23:30.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T02:23:30.676Z"
             },
             {
               "$type": "Document",
@@ -367,8 +355,7 @@
               "RelativeToolTip": "ConsoleClient\\Helpers\\RegisterHelper.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwCsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T09:58:53.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T09:58:53.929Z"
             },
             {
               "$type": "Document",
@@ -380,8 +367,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:00:00.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:00:00.578Z"
             },
             {
               "$type": "Document",
@@ -393,8 +379,7 @@
               "RelativeToolTip": "ConsoleClient\\Interfaces\\IRequestsService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:52:08.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T02:52:08.644Z"
             },
             {
               "$type": "Document",
@@ -406,8 +391,7 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\PatientMenu.cs",
               "ViewState": "AgIAAKgAAAAAAAAAAAAowLwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T11:05:30.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T11:05:30.648Z"
             },
             {
               "$type": "Document",
@@ -419,8 +403,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\AppointmentController.cs",
               "ViewState": "AgIAACEBAAAAAAAAAAAwwLQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:57:57.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T21:57:57.645Z"
             },
             {
               "$type": "Document",
@@ -432,8 +415,7 @@
               "RelativeToolTip": "Application\\Services\\AuthService.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T01:44:14.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T01:44:14.309Z"
             },
             {
               "$type": "Document",
@@ -445,8 +427,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\ReportController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:57:42.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T21:57:42.089Z"
             },
             {
               "$type": "Document",
@@ -458,8 +439,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAPQAAAAAAAAAAADwv0YAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:38:29.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T15:38:29.893Z"
             },
             {
               "$type": "Document",
@@ -471,8 +451,7 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\DoctorMenu.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAowHEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:32.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:24:32.29Z"
             },
             {
               "$type": "Document",
@@ -484,8 +463,7 @@
               "RelativeToolTip": "ConsoleClient\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T16:44:20.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-02T16:44:20.206Z"
             },
             {
               "$type": "Document",
@@ -497,8 +475,7 @@
               "RelativeToolTip": "WebApi\\Auth\\TokenAuthenticationHandler.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwEcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:11:16.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T21:11:16.022Z"
             },
             {
               "$type": "Document",
@@ -510,8 +487,7 @@
               "RelativeToolTip": "Application\\DTOs\\UserRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T12:29:51.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T12:29:51.951Z"
             },
             {
               "$type": "Document",
@@ -523,8 +499,7 @@
               "RelativeToolTip": "Domain\\Enums\\AppointmentStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:27:53.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T14:27:53.059Z"
             },
             {
               "$type": "Document",
@@ -536,8 +511,7 @@
               "RelativeToolTip": "Domain\\Enums\\AuditAct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:28:34.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T14:28:34.686Z"
             },
             {
               "$type": "Document",
@@ -549,8 +523,7 @@
               "RelativeToolTip": "Infrastructure\\Persistence\\HospitalDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T19:30:13.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T19:30:13.173Z"
             },
             {
               "$type": "Document",
@@ -562,8 +535,7 @@
               "RelativeToolTip": "Application\\Settings\\AppointmentOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T10:34:05.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T10:34:05.421Z"
             },
             {
               "$type": "Document",
@@ -575,8 +547,7 @@
               "RelativeToolTip": "Application\\Services\\InMemorySessionService.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T19:50:37.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T19:50:37.528Z"
             },
             {
               "$type": "Document",
@@ -588,8 +559,7 @@
               "RelativeToolTip": "Application\\DTOs\\ReportResultDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:42:12.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:42:12.706Z"
             },
             {
               "$type": "Document",
@@ -601,8 +571,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IReportService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:41:35.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:41:35.699Z"
             },
             {
               "$type": "Document",
@@ -614,8 +583,7 @@
               "RelativeToolTip": "Application\\DTOs\\AuditLogQueryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:41:03.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:41:03.944Z"
             },
             {
               "$type": "Document",
@@ -627,8 +595,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IAuditService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:33:31.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:33:31.49Z"
             },
             {
               "$type": "Document",
@@ -640,8 +607,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:29:51.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:29:51.716Z"
             },
             {
               "$type": "Document",
@@ -653,8 +619,7 @@
               "RelativeToolTip": "Application\\Interfaces\\ISessionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:28:03.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:28:03.244Z"
             },
             {
               "$type": "Document",
@@ -666,8 +631,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IAppointmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:14:12.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:14:12.808Z"
             },
             {
               "$type": "Document",
@@ -679,8 +643,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IPatientService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:07:07.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:07:07.151Z"
             },
             {
               "$type": "Document",
@@ -692,8 +655,7 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\SqliteAuditRepository.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T19:40:00.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T19:40:00.322Z"
             }
           ]
         }

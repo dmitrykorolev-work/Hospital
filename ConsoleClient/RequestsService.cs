@@ -1,5 +1,5 @@
-﻿using Hospital.ConsoleClient.Interfaces;
-using Hospital.Application.DTOs;
+﻿using Hospital.Application.DTOs;
+using Hospital.ConsoleClient.Interfaces;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -8,9 +8,7 @@ using System.Text.Json;
 
 namespace Hospital.ConsoleClient;
 
-
-// TODO: Separate services?
-internal class RequestsService : IRequestsService
+internal class RequestsService : IRequestsService // TODO: Separate services?
 {
     private readonly HttpClient _http;
     private readonly JsonSerializerOptions _jsonOptions;
@@ -203,6 +201,12 @@ internal class RequestsService : IRequestsService
     {
         var url = $"api/Audit/export{BuildQueryString(query)}";
         return await GetFileAsync(url).ConfigureAwait(false);
+    }
+
+    // Admin
+    public async Task CreateAdminAsync(AdminRegisterDto dto)
+    {
+        await PostJsonNoResponseAsync("api/Admin", dto).ConfigureAwait(false);
     }
 
     // --- Helpers ---

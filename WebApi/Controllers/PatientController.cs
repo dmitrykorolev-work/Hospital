@@ -12,7 +12,7 @@ using CsvHelper.Configuration;
 namespace Hospital.WebApi.Controllers;
 
 [Route( "api/[controller]" )]
-[Authorize(Roles = "Admin" )]
+[Authorize(Roles = "Admin,Superadmin" )]
 [ApiController]
 public class PatientController : ControllerBase
 {
@@ -25,6 +25,14 @@ public class PatientController : ControllerBase
         _auditService = auditService ?? throw new ArgumentNullException(nameof(auditService));
     }
 
+    // GET: api/Patient
+    [HttpGet]
+    public async Task<ActionResult<PagedResult<PatientDto>>> Search([FromQuery] PatientQueryDto query)
+    {
+        var result = await _patientService.SearchAsync(query).ConfigureAwait(false);
+        return Ok(result);
+    }
+
     // GET: api/Patient/{id}
     [HttpGet( "{id:guid}" )]
     public async Task<ActionResult<PatientDto>> GetById(Guid id)
@@ -32,14 +40,6 @@ public class PatientController : ControllerBase
         var patient = await _patientService.GetByIdAsync(id).ConfigureAwait(false);
         if (patient is null) return NotFound();
         return Ok(patient);
-    }
-
-    // GET: api/Patient
-    [HttpGet]
-    public async Task<ActionResult<PagedResult<PatientDto>>> Search([FromQuery] PatientQueryDto query)
-    {
-        var result = await _patientService.SearchAsync(query).ConfigureAwait(false);
-        return Ok(result);
     }
 
     // GET: api/Patient/export
@@ -81,6 +81,7 @@ public class PatientController : ControllerBase
 
     // POST: api/Patient/import
     [HttpPost( "import" )]
+    [Authorize(Roles = "Superadmin")]
     public async Task<IActionResult> Import(IFormFile file)
     {
         if (file is null || file.Length == 0)

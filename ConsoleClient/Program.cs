@@ -31,6 +31,7 @@ class Program
                 services.AddTransient<AppMapper>();
 
                 services.AddTransient<MainMenu>();
+                services.AddTransient<SuperadminMenu>();
                 services.AddTransient<AdminMenu>();
                 services.AddTransient<PatientMenu>();
                 services.AddTransient<DoctorMenu>();

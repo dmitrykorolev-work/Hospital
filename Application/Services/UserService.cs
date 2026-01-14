@@ -72,6 +72,16 @@ public sealed class UserService : IUserService
         await _userRepository.UpdateAsync(user).ConfigureAwait(false);
     }
 
+    public async Task ChangePasswordAsync(Guid userId, string password)
+    {
+        var user = await _userRepository.GetByIdAsync(userId).ConfigureAwait(false);
+        if (user is null) throw new KeyNotFoundException("User not found.");
+
+        user.PasswordHash = _passwordHasher.HashPassword(user, password);
+
+        await _userRepository.UpdateAsync(user).ConfigureAwait(false);
+    }
+
     public async Task BlockAsync(Guid userId)
     {
         var user = await _userRepository.GetByIdAsync(userId).ConfigureAwait(false);

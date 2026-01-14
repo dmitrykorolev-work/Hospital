@@ -1,7 +1,5 @@
 ﻿using Hospital.Application.DTOs;
 using Hospital.Application.Interfaces;
-using Hospital.Application.Mappings;
-using Hospital.Domain.Entities;
 using Hospital.Domain.Enums;
 using Microsoft.AspNetCore.Identity;
 
@@ -13,26 +11,20 @@ public sealed class AuthService : IAuthService
     private readonly IUserRepository _userRepository;
     private readonly IPatientService _patientService;
     private readonly IDoctorService _doctorService;
-    private readonly IPasswordHasher<User> _passwordHasher;
     private readonly ISessionService _sessionService;
-    private readonly AppMapper _mapper;
 
     public AuthService(
         IUserService userService,
         IUserRepository userRepository,
         IPatientService patientService,
         IDoctorService doctorService,
-        IPasswordHasher<User> passwordHasher,
-        ISessionService sessionService,
-        AppMapper mapper)
+        ISessionService sessionService)
     {
         _userService = userService ?? throw new ArgumentNullException(nameof(userService));
         _userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
         _patientService = patientService ?? throw new ArgumentNullException(nameof(patientService));
         _doctorService = doctorService ?? throw new ArgumentNullException(nameof(doctorService));
-        _passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         _sessionService = sessionService ?? throw new ArgumentNullException(nameof(sessionService));
-        _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
 
     public async Task<AuthResultDto> RegisterAsync(UserRegisterDto dto, Role role, Specialty? specialty = null)

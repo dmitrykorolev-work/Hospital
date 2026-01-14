@@ -2,7 +2,7 @@
 
 namespace Hospital.ConsoleClient.Interfaces;
 
-internal interface IRequestsService
+internal interface IRequestsService // TODO: Separate services?
 {
     // Auth
     Task<AuthResultDto> RegisterAsync(UserRegisterDto dto);
@@ -45,4 +45,7 @@ internal interface IRequestsService
     // Audit
     Task<PagedResult<AuditLogDto>> SearchAuditAsync(AuditLogQueryDto query);
     Task<(byte[] Content, string FileName)> ExportAuditAsync(AuditLogQueryDto? query = null);
+
+    // Admin
+    Task CreateAdminAsync(AdminRegisterDto dto);
 }

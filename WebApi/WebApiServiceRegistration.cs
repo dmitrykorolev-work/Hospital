@@ -3,6 +3,7 @@ using Hospital.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using Hospital.WebApi.Initializers;
 
 namespace Hospital.WebApi;
 
@@ -33,6 +34,9 @@ public static class WebApiServiceRegistration
         // Add infrastructure services from the Infrastructure project
 
         DependencyInjection.AddInfrastructure(services, configuration);
+
+        // Hosted service for automatic superadmin creation/update
+        services.AddHostedService<SuperadminInitializer>();
 
         return services;
     }

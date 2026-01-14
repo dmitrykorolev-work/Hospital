@@ -9,16 +9,16 @@ namespace Hospital.ConsoleClient.Menu;
 internal class MainMenu : IMenu
 {
     private readonly IRequestsService _requests;
-	private readonly IRegisterHelper _registerHelper;
-	private readonly IServiceProvider _sp;
+    private readonly IRegisterHelper _registerHelper;
+    private readonly IServiceProvider _sp;
 
-	public MainMenu(IRequestsService requests, IServiceProvider sp, IRegisterHelper registerHelper)
+    public MainMenu(IRequestsService requests, IServiceProvider sp, IRegisterHelper registerHelper)
     {
         _requests = requests;
         _sp = sp;
         _registerHelper = registerHelper;
 
-	}
+    }
 
     public async Task RunAsync(CancellationToken cancellationToken = default)
     {
@@ -51,6 +51,7 @@ internal class MainMenu : IMenu
             {
                 IMenu? menu = authResult.Role.Value switch
                 {
+                    Role.Superadmin => _sp.GetRequiredService<SuperadminMenu>(),
                     Role.Admin => _sp.GetRequiredService<AdminMenu>(),
                     Role.Doctor => _sp.GetRequiredService<DoctorMenu>(),
                     Role.Patient => _sp.GetRequiredService<PatientMenu>(),
@@ -64,20 +65,22 @@ internal class MainMenu : IMenu
                 else
                 {
                     AnsiConsole.MarkupLine( "[red]Error: Unknown role![/]" );
-                    AnsiConsole.MarkupLine( $"[gray]Press <Enter> to continue[/]" );
-                    Console.ReadLine();
+                    Pause();
                 }
-
             }
         }
+    }
+
+    private protected static void Pause()
+    {
+        AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
+        Console.ReadLine();
     }
 
     private async Task<AuthResultDto?> DoLoginAsync()
     {
         var email = AnsiConsole.Prompt(
-            new TextPrompt<string>( "[yellow]Email: [/]" )
-                .Validate(input => input.Contains( "@" ) && input.Contains( "." ),
-                    "[red]Please enter a valid email address[/]" )
+            new TextPrompt<string>( "[yellow]Login: [/]" )
         );
 
         var password = AnsiConsole.Prompt(
@@ -87,12 +90,11 @@ internal class MainMenu : IMenu
 
         try
         {
-            var result = await _requests.LoginAsync(new UserLoginDto(email, password));
+            var result = await _requests.LoginAsync( new UserLoginDto(email, password) );
             if (result is null || !result.Success)
             {
                 AnsiConsole.MarkupLine( $"[red]Login failed: { Markup.Escape( result?.Message ?? "Unknown error" ) }[/]" );
-                AnsiConsole.MarkupLine( $"[gray]Press <Enter> to continue[/]" );
-                Console.ReadLine();
+                Pause();
                 return null;
             }
 
@@ -101,25 +103,23 @@ internal class MainMenu : IMenu
         catch (Exception ex)
         {
             AnsiConsole.MarkupLine( $"[red]Login error: { Markup.Escape( ex.Message ?? "Unknown error" ) }[/]" );
-            AnsiConsole.MarkupLine( $"[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return null;
         }
     }
 
     private async Task<AuthResultDto?> DoRegisterAsync()
     {
-		UserRegisterDto? userRegisterDto = await _registerHelper.RegisterPrompt();
+        UserRegisterDto? userRegisterDto = await _registerHelper.RegisterPrompt();
         if (userRegisterDto is null) return null;
 
-		try
+        try
         {
             var result = await _requests.RegisterAsync(userRegisterDto);
             if (result is null || !result.Success)
             {
                 AnsiConsole.MarkupLine( $"[red]Register failed: { Markup.Escape( result?.Message ?? "Unknown error" ) }[/]" );
-                AnsiConsole.MarkupLine( $"[gray]Press <Enter> to continue[/]" );
-                Console.ReadLine();
+                Pause();
                 return null;
             }
 
@@ -128,8 +128,7 @@ internal class MainMenu : IMenu
         catch (Exception ex)
         {
             AnsiConsole.MarkupLine( $"[red]Register error: { Markup.Escape( ex.Message ?? "Unknown error" ) }[/]" );
-            AnsiConsole.MarkupLine( $"[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return null;
         }
     }

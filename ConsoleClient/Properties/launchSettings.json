@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Hospital.ConsoleClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SUPERADMIN_PASSWORD": "1234"
+      }
+    }
+  }
+}

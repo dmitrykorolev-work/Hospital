@@ -48,7 +48,7 @@ public class AppointmentController : ControllerBase
         var doctor = await _appointmentService.FindAvailableDoctorAsync(dto.AppointmentTime, dto.Specialty).ConfigureAwait(false);
         if (doctor is null)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Booking failed - no available doctor. PatientId:{patient.Id} Time:{dto.AppointmentTime:o}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Booking failed - no available doctor. PatientId:{patient.Id} Time:{dto.AppointmentTime:o}" );
             return Conflict(new { Message = "No available doctor for requested time and specialty." });
         }
 
@@ -58,7 +58,7 @@ public class AppointmentController : ControllerBase
         {
             var appointment = await _appointmentService.CreateAsync(createDto).ConfigureAwait(false);
 
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Booked AppointmentId:{appointment.Id} PatientId:{patient.Id} DoctorId:{doctor.Id} Time:{appointment.AppointmentTime:o}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Booked AppointmentId:{appointment.Id} PatientId:{patient.Id} DoctorId:{doctor.Id} Time:{appointment.AppointmentTime:o}" );
 
             return Ok(new AppointmentBookResultDto(
                 true,
@@ -70,7 +70,7 @@ public class AppointmentController : ControllerBase
         }
         catch (ArgumentException ex)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Booking failed - bad request: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time:{dto.AppointmentTime:o}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Booking failed - bad request: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time:{dto.AppointmentTime:o}" );
             return BadRequest(new AppointmentBookResultDto(
                 false,
                 ex.Message,
@@ -81,7 +81,7 @@ public class AppointmentController : ControllerBase
         }
         catch (KeyNotFoundException ex)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Booking failed - not found: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time: {dto.AppointmentTime:o}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Booking failed - not found: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time: {dto.AppointmentTime:o}" );
             return NotFound(new AppointmentBookResultDto(
                 false,
                 ex.Message,
@@ -92,7 +92,7 @@ public class AppointmentController : ControllerBase
         }
         catch (InvalidOperationException ex)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Booking conflict: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time: {dto.AppointmentTime:o}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Booking conflict: {ex.Message} PatientId: {patient.Id} DoctorId: {doctor?.Id} Time: {dto.AppointmentTime:o}" );
             return Conflict(new AppointmentBookResultDto(
                 false,
                 ex.Message,
@@ -147,7 +147,7 @@ public class AppointmentController : ControllerBase
 
     // GET: api/Appointment/export
     [HttpGet( "export" )]
-    [Authorize(Roles = "Admin" )]
+    [Authorize(Roles = "Admin,Superadmin")]
     public async Task<IActionResult> Export([FromQuery] AppointmentQueryDto? query)
     {
         var userId = HttpContext.GetCurrentUserId();
@@ -180,14 +180,14 @@ public class AppointmentController : ControllerBase
         var csvBytes = Encoding.UTF8.GetBytes(csvString);
         var fileName = $"appointments_{DateTime.UtcNow:yyyyMMddHHmmss}.csv";
 
-        await SafeLogAsync(userId, AuditAct.Apponiment, $"Exported appointments CSV. Count: {result.TotalCount} ByUser: {userId}" ).ConfigureAwait(false);
+        await SafeLogAsync(userId, AuditAct.Appointment, $"Exported appointments CSV. Count: {result.TotalCount} ByUser: {userId}" ).ConfigureAwait(false);
 
         return File(csvBytes, "text/csv; charset=utf-8", fileName);
     }
 
     // POST: api/Appointment/import
     [HttpPost( "import" )]
-    [Authorize(Roles = "Admin" )]
+    [Authorize(Roles = "Superadmin")]
     public async Task<IActionResult> Import(IFormFile file)
     {
         if (file is null || file.Length == 0)
@@ -264,11 +264,11 @@ public class AppointmentController : ControllerBase
         }
         catch (Exception ex)
         {
-            await SafeLogAsync(actorId, AuditAct.Apponiment, $"Import failed. Error: {ex.Message}" ).ConfigureAwait(false);
+            await SafeLogAsync(actorId, AuditAct.Appointment, $"Import failed. Error: {ex.Message}" ).ConfigureAwait(false);
             throw;
         }
 
-        await SafeLogAsync(actorId, AuditAct.Apponiment, $"Imported appointments CSV. Processed: {processed} Updated: {updated} Skipped: {skipped}" ).ConfigureAwait(false);
+        await SafeLogAsync(actorId, AuditAct.Appointment, $"Imported appointments CSV. Processed: {processed} Updated: {updated} Skipped: {skipped}" ).ConfigureAwait(false);
 
         return Ok(new ImportResultDto(processed, updated, skipped, errors));
     }
@@ -290,18 +290,18 @@ public class AppointmentController : ControllerBase
         {
             await _appointmentService.CloseAsync(id, doctor.Id, dto?.DoctorNotes).ConfigureAwait(false);
 
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Closed AppointmentId: {id} DoctorId: {doctor.Id} Notes: {dto?.DoctorNotes}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Closed AppointmentId: {id} DoctorId: {doctor.Id} Notes: {dto?.DoctorNotes}" );
 
             return NoContent();
         }
         catch (KeyNotFoundException)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Close failed - not found. AppointmentId: {id} DoctorId: {doctor.Id}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Close failed - not found. AppointmentId: {id} DoctorId: {doctor.Id}" );
             return NotFound();
         }
         catch (InvalidOperationException ex)
         {
-            await SafeLogAsync(userId, AuditAct.Apponiment, $"Close failed - invalid operation: {ex.Message} AppointmentId: {id} DoctorId: {doctor.Id}" );
+            await SafeLogAsync(userId, AuditAct.Appointment, $"Close failed - invalid operation: {ex.Message} AppointmentId: {id} DoctorId: {doctor.Id}" );
             return BadRequest(ex.Message);
         }
     }

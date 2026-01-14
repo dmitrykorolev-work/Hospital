@@ -1,5 +1,4 @@
 ﻿using Hospital.Application.DTOs;
-using Hospital.Application.Mappings;
 using Hospital.ConsoleClient.Interfaces;
 using Spectre.Console;
 using Newtonsoft.Json;
@@ -10,13 +9,11 @@ internal class DoctorMenu : IMenu
 {
     private readonly IRequestsService _requests;
     private readonly IPagedTable _pagedTable;
-    private readonly AppMapper _mapper;
 
-    public DoctorMenu(IRequestsService requests, IPagedTable pagedTable, AppMapper mapper)
+    public DoctorMenu(IRequestsService requests, IPagedTable pagedTable)
     {
         _requests = requests;
         _pagedTable = pagedTable;
-        _mapper = mapper;
     }
 
     public async Task RunAsync(CancellationToken cancellationToken = default)
@@ -44,6 +41,11 @@ internal class DoctorMenu : IMenu
                 return;
         }
     }
+    private protected static void Pause()
+    {
+        AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
+        Console.ReadLine();
+    }
 
     private async Task DoAppointmentsSubMenu()
     {
@@ -65,24 +67,21 @@ internal class DoctorMenu : IMenu
             }
             catch (OperationCanceledException)
             {
-                AnsiConsole.MarkupLine("[red]Operation cancelled.[/]");
-                AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-                Console.ReadLine();
+                AnsiConsole.MarkupLine( "[red]Operation cancelled.[/]" );
+                Pause();
                 return;
             }
             catch (Exception ex)
             {
-                AnsiConsole.MarkupLine($"[red]Failed to retrieve appointments: {Markup.Escape(ex.Message)}[/]");
-                AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-                Console.ReadLine();
+                AnsiConsole.MarkupLine( $"[red]Failed to retrieve appointments: {Markup.Escape(ex.Message)}[/]" );
+                Pause();
                 return;
             }
 
             if (data is null)
             {
-                AnsiConsole.MarkupLine("[red]Server returned empty response while retrieving appointments.[/]");
-                AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-                Console.ReadLine();
+                AnsiConsole.MarkupLine( "[red]Server returned empty response while retrieving appointments.[/]" );
+                Pause();
                 return;
             }
 
@@ -92,19 +91,18 @@ internal class DoctorMenu : IMenu
 
     private async Task DoCloseSubMenu()
     {
-        // Select appointment time
         var appointmentId = AnsiConsole.Prompt(
-            new TextPrompt<Guid>("[yellow]Appointment ID: [/]")
+            new TextPrompt<Guid>( "[yellow]Appointment ID: [/]" )
         );
 
         // Optional notes
         var notes = AnsiConsole.Prompt(
-            new TextPrompt<string>("[yellow]Notes (optional): [/]")
+            new TextPrompt<string>( "[yellow]Notes (optional): [/]" )
                 .AllowEmpty()
         ).Trim();
 
         // Confirm
-        var summary = $"[yellow]Close appointment with ID:[/] [cyan]{appointmentId}[/]" +
+        var summary = $"[yellow]Close appointment with ID:[/] [cyan]{ appointmentId }[/]" +
                       (string.IsNullOrWhiteSpace(notes) ? "" : $"[yellow] And with notes:[/] [cyan]\"{Markup.Escape(notes)}\"[/]") + "?";
 
         bool confirm = AnsiConsole.Confirm(summary);
@@ -115,13 +113,11 @@ internal class DoctorMenu : IMenu
         try
         {
             await _requests.CloseAppointmentAsync(appointmentId, new CloseAppointmentRequest(notes));
+            AnsiConsole.MarkupLine($"[green]Appointment closed successfully.[/]");
         }
         catch (OperationCanceledException)
         {
-            AnsiConsole.MarkupLine("[red]Operation cancelled.[/]");
-            AnsiConsole.MarkupLine(" [gray]Press <Enter> to continue[/]");
-            Console.ReadLine();
-            return;
+            AnsiConsole.MarkupLine( "[red]Operation cancelled.[/]" );
         }
         catch (ArgumentException ex)
         {
@@ -133,10 +129,7 @@ internal class DoctorMenu : IMenu
             }
             catch { /* Ignore */ }
 
-            AnsiConsole.MarkupLine($"[red]Invalid request: {Markup.Escape(message)}[/]");
-            AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-            Console.ReadLine();
-            return;
+            AnsiConsole.MarkupLine( $"[red]Invalid request: { Markup.Escape(message) }[/]" );
         }
         catch (Exception ex)
         {
@@ -148,15 +141,9 @@ internal class DoctorMenu : IMenu
             }
             catch { /* Ignore */ }
 
-            AnsiConsole.MarkupLine($"[red]Failed to close appointment: {Markup.Escape(message)}[/]");
-            AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-            Console.ReadLine();
-            return;
+            AnsiConsole.MarkupLine( $"[red]Failed to close appointment: { Markup.Escape(message) }[/]" );
         }
 
-        AnsiConsole.MarkupLine($"[green]Appointment closed successfully.[/]");
-
-        AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
-        Console.ReadLine();
+        Pause();
     }
 }

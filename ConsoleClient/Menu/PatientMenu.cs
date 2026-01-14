@@ -1,5 +1,4 @@
 ﻿using Hospital.Application.DTOs;
-using Hospital.Application.Mappings;
 using Hospital.ConsoleClient.Interfaces;
 using Hospital.Domain.Enums;
 using Spectre.Console;
@@ -11,13 +10,11 @@ internal class PatientMenu : IMenu
 {
     private readonly IRequestsService _requests;
     private readonly IPagedTable _pagedTable;
-    private readonly AppMapper _mapper;
 
-    public PatientMenu(IRequestsService requests, IPagedTable pagedTable, AppMapper mapper)
+    public PatientMenu(IRequestsService requests, IPagedTable pagedTable)
     {
         _requests = requests;
         _pagedTable = pagedTable;
-        _mapper = mapper;
     }
 
     public async Task RunAsync(CancellationToken cancellationToken = default)
@@ -46,6 +43,12 @@ internal class PatientMenu : IMenu
         }
     }
 
+    private protected static void Pause()
+    {
+        AnsiConsole.MarkupLine("[gray]Press <Enter> to continue[/]");
+        Console.ReadLine();
+    }
+
     private async Task DoAppointmentsSubMenu()
     {
         int? page = 1;
@@ -67,23 +70,20 @@ internal class PatientMenu : IMenu
             catch (OperationCanceledException)
             {
                 AnsiConsole.MarkupLine( "[red]Operation cancelled.[/]" );
-                AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-                Console.ReadLine();
+                Pause();
                 return;
             }
             catch (Exception ex)
             {
                 AnsiConsole.MarkupLine( $"[red]Failed to retrieve appointments: { Markup.Escape(ex.Message) }[/]" );
-                AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-                Console.ReadLine();
+                Pause();
                 return;
             }
 
             if (data is null)
             {
                 AnsiConsole.MarkupLine( "[red]Server returned empty response while retrieving appointments.[/]" );
-                AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-                Console.ReadLine();
+                Pause();
                 return;
             }
 
@@ -139,15 +139,13 @@ internal class PatientMenu : IMenu
         catch (InvalidOperationException)
         {
             AnsiConsole.MarkupLine("[red]Booking failed: No available doctor for requested time and specialty.[/]");
-            AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
         catch (OperationCanceledException)
         {
             AnsiConsole.MarkupLine( "[red]Operation cancelled.[/]" );
-            AnsiConsole.MarkupLine( " [gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
         catch (ArgumentException ex)
@@ -159,8 +157,7 @@ internal class PatientMenu : IMenu
             } catch { /* Ignore */ }
 
             AnsiConsole.MarkupLine( $"[red]Invalid request: { Markup.Escape(message) }[/]" );
-            AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
         catch (Exception ex)
@@ -173,24 +170,21 @@ internal class PatientMenu : IMenu
             catch { /* Ignore */ }
 
             AnsiConsole.MarkupLine( $"[red]Failed to book appointment: { Markup.Escape(message) }[/]" );
-            AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
 
         if (result is null)
         {
             AnsiConsole.MarkupLine( "[red]Server returned empty response while booking appointment.[/]");
-            AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
 
         if (!result.Success)
         {
             AnsiConsole.MarkupLine( $"[red]Booking failed: { Markup.Escape(result.Message ?? "Unknown error" ) }[/]" );
-            AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-            Console.ReadLine();
+            Pause();
             return;
         }
 
@@ -207,7 +201,6 @@ internal class PatientMenu : IMenu
             AnsiConsole.MarkupLine( $"[yellow]Appointment Id:[/] [cyan]{result.AppointmentId}[/]" );
         }
 
-        AnsiConsole.MarkupLine( "[gray]Press <Enter> to continue[/]" );
-        Console.ReadLine();
+        Pause();
     }
 }

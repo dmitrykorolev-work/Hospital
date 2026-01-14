@@ -12,7 +12,7 @@ using CsvHelper.Configuration;
 namespace Hospital.WebApi.Controllers;
 
 [Route( "api/[controller]" )]
-[Authorize(Roles = "Admin" )]
+[Authorize(Roles = "Admin,Superadmin" )]
 [ApiController]
 public class AuditController : ControllerBase
 {

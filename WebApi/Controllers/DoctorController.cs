@@ -13,7 +13,7 @@ using CsvHelper.Configuration;
 namespace Hospital.WebApi.Controllers;
 
 [Route( "api/[controller]" )]
-[Authorize(Roles = "Admin" )]
+[Authorize(Roles = "Admin,Superadmin" )]
 [ApiController]
 public class DoctorController : ControllerBase
 {
@@ -30,6 +30,18 @@ public class DoctorController : ControllerBase
         _auditService = auditService ?? throw new ArgumentNullException(nameof(auditService));
     }
 
+    // GET: api/Doctor
+    [HttpGet]
+    public async Task<ActionResult<PagedResult<DoctorDto>>> Search([FromQuery] DoctorQueryDto query)
+    {
+        var result = await _doctorService.SearchAsync(query).ConfigureAwait(false);
+
+        var userId = HttpContext.GetCurrentUserId();
+        //await SafeLogAsync(userId, AuditAct.Doctor, $"Searched doctors. Specialty: {query?.Specialty} Page: {query?.Page} PageSize: {query?.PageSize}" );
+
+        return Ok(result);
+    }
+
     // GET: api/Doctor/{id}
     [HttpGet( "{id:guid}" )]
     public async Task<ActionResult<DoctorDto>> GetById(Guid id)
@@ -41,18 +53,6 @@ public class DoctorController : ControllerBase
         //await SafeLogAsync(userId, AuditAct.Doctor, $"Viewed doctor. DoctorId: {id}" );
 
         return Ok(doctor);
-    }
-
-    // GET: api/Doctor
-    [HttpGet]
-    public async Task<ActionResult<PagedResult<DoctorDto>>> Search([FromQuery] DoctorQueryDto query)
-    {
-        var result = await _doctorService.SearchAsync(query).ConfigureAwait(false);
-
-        var userId = HttpContext.GetCurrentUserId();
-        //await SafeLogAsync(userId, AuditAct.Doctor, $"Searched doctors. Specialty: {query?.Specialty} Page: {query?.Page} PageSize: {query?.PageSize}" );
-
-        return Ok(result);
     }
 
     // GET: api/Doctor/export
@@ -93,6 +93,7 @@ public class DoctorController : ControllerBase
 
     // POST: api/Doctor/import
     [HttpPost( "import" )]
+    [Authorize(Roles = "Superadmin")]
     public async Task<IActionResult> Import(IFormFile file)
     {
         if (file is null || file.Length == 0)
@@ -177,7 +178,7 @@ public class DoctorController : ControllerBase
         return Ok( new ImportResultDto(processed, updated, skipped, errors) );
     }
 
-    // POST: api/Doctor/{id}
+    // POST: api/Doctor
 
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] DoctorRegisterDto dto)

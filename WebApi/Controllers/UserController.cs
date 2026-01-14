@@ -12,7 +12,7 @@ using System.Text;
 namespace Hospital.WebApi.Controllers;
 
 [Route( "api/[controller]" )]
-[Authorize(Roles = "Admin" )]
+[Authorize(Roles = "Admin,Superadmin" )]
 [ApiController]
 public class UserController : ControllerBase
 {
@@ -65,10 +65,16 @@ public class UserController : ControllerBase
         var user = await _usersService.GetByIdAsync(id).ConfigureAwait(false);
         if (user is null) return NotFound();
 
-        if (user.Role == Role.Admin)
+        if (user.Role == Role.Superadmin)
+        {
+            // You can't block superadmins
+            return BadRequest( "Blocking an superadmin is not allowed." );
+        }
+
+        if (!User.IsInRole("Superadmin") && user.Role == Role.Admin)
         {
             // You can't block admins
-            return BadRequest( "Blocking an admin is not allowed." );
+            return Forbid("You can't block admins.");
         }
 
         try
@@ -100,10 +106,16 @@ public class UserController : ControllerBase
         var user = await _usersService.GetByIdAsync(id).ConfigureAwait(false);
         if (user is null) return NotFound();
 
-        if (user.Role == Role.Admin)
+        if (user.Role == Role.Superadmin)
         {
-            // You can't unblock admins
-            return BadRequest( "Unblocking an admin is not allowed." );
+            // You can't block superadmins
+            return BadRequest("Unblocking an superadmin is not allowed.");
+        }
+
+        if (!User.IsInRole("Superadmin") && user.Role == Role.Admin)
+        {
+            // You can't block admins
+            return Forbid("You can't unblock admins.");
         }
 
         try
@@ -160,6 +172,7 @@ public class UserController : ControllerBase
 
     // POST: api/Users/import
     [HttpPost( "import" )]
+    [Authorize(Roles = "Superadmin")]
     public async Task<IActionResult> Import(IFormFile file)
     {
         if (file is null || file.Length == 0)

@@ -6,7 +6,6 @@ namespace Hospital.Application.Interfaces;
 
 public interface IUserService
 {
-
     Task<UserDto> CreateAsync(CreateUserDto dto);
     Task UpdateAsync(UserDto dto);
 
@@ -16,6 +15,8 @@ public interface IUserService
     Task<IEnumerable<UserDto>> GetAllAsync();
 
     Task ChangeRoleAsync(Guid userId, Role role);
+
+    Task ChangePasswordAsync(Guid userId, string password);
 
     Task BlockAsync(Guid userId);
     Task UnblockAsync(Guid userId);

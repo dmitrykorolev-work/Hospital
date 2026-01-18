@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\dmitr\\source\\repos\\Hospital\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|solutionrelative:consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\webapi\\hospital.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|solutionrelative:webapi\\hospital.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\webapi\\webapiserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|solutionrelative:webapi\\webapiserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|solutionrelative:consoleclient\\requestsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|solutionrelative:consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\consoleclient\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FE80F56-943D-4C99-B6AE-F2CB357337EC}|ConsoleClient\\Hospital.ConsoleClient.csproj|solutionrelative:consoleclient\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -157,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Hospital.Application.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\application\\dtos\\adminregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D5B81D-891A-41D2-8151-8F18ABFFCD8F}|Application\\Hospital.Application.csproj|solutionrelative:application\\dtos\\adminregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|c:\\users\\dmitr\\source\\repos\\hospital\\webapi\\hospital.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD47E2D8-5C36-2B85-DBCD-2484F4D16A8F}|WebApi\\Hospital.WebApi.csproj|solutionrelative:webapi\\hospital.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,15 +174,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T12:57:24.891Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SuperadminInitializer.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Initializers\\SuperadminInitializer.cs",
               "RelativeDocumentMoniker": "WebApi\\Initializers\\SuperadminInitializer.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AdminMenu.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Menu\\AdminMenu.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Menu\\AdminMenu.cs",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SuperadminMenu.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Menu\\SuperadminMenu.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Menu\\SuperadminMenu.cs",
@@ -212,11 +229,12 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\SuperadminMenu.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwLQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:24:28.263Z"
+              "WhenOpened": "2026-01-13T15:24:28.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Menu\\MainMenu.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Menu\\MainMenu.cs",
@@ -224,11 +242,12 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\MainMenu.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAkwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T09:56:09.915Z"
+              "WhenOpened": "2026-01-05T09:56:09.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AuditController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\AuditController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AuditController.cs",
@@ -236,11 +255,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\AuditController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T22:43:54.299Z"
+              "WhenOpened": "2026-01-03T22:43:54.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "DoctorController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\DoctorController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\DoctorController.cs",
@@ -248,11 +268,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\DoctorController.cs",
               "ViewState": "AgIAAMsAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T22:24:15.612Z"
+              "WhenOpened": "2026-01-03T22:24:15.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\PatientController.cs",
@@ -265,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "AdminRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\DTOs\\AdminRegisterDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\AdminRegisterDto.cs",
@@ -277,20 +298,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WebApiServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\WebApiServiceRegistration.cs",
               "RelativeDocumentMoniker": "WebApi\\WebApiServiceRegistration.cs",
               "ToolTip": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\WebApiServiceRegistration.cs",
               "RelativeToolTip": "WebApi\\WebApiServiceRegistration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T19:30:35.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Services\\AppointmentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AppointmentService.cs",
@@ -302,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
@@ -314,19 +335,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 2,
               "Title": "Hospital.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Hospital.WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi\\Hospital.WebApi.csproj",
               "ToolTip": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Hospital.WebApi.csproj",
               "RelativeToolTip": "WebApi\\Hospital.WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-14T04:10:12.729Z"
+              "WhenOpened": "2026-01-14T04:10:12.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AdminController.cs",
@@ -334,11 +356,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:14:17.539Z"
+              "WhenOpened": "2026-01-13T16:14:17.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "RequestsService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\RequestsService.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\RequestsService.cs",
@@ -346,11 +369,12 @@
               "RelativeToolTip": "ConsoleClient\\RequestsService.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAAAcwM0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:23:30.676Z"
+              "WhenOpened": "2026-01-14T02:23:30.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "RegisterHelper.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Helpers\\RegisterHelper.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Helpers\\RegisterHelper.cs",
@@ -358,11 +382,12 @@
               "RelativeToolTip": "ConsoleClient\\Helpers\\RegisterHelper.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwCsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T09:58:53.929Z"
+              "WhenOpened": "2026-01-05T09:58:53.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
@@ -374,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IRequestsService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Interfaces\\IRequestsService.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Interfaces\\IRequestsService.cs",
@@ -382,11 +407,12 @@
               "RelativeToolTip": "ConsoleClient\\Interfaces\\IRequestsService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T02:52:08.644Z"
+              "WhenOpened": "2026-01-14T02:52:08.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PatientMenu.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Menu\\PatientMenu.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Menu\\PatientMenu.cs",
@@ -394,11 +420,12 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\PatientMenu.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAowJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T11:05:30.648Z"
+              "WhenOpened": "2026-01-05T11:05:30.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AppointmentController.cs",
@@ -406,11 +433,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\AppointmentController.cs",
               "ViewState": "AgIAACEBAAAAAAAAAAAwwLQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:57:57.645Z"
+              "WhenOpened": "2026-01-03T21:57:57.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
@@ -422,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ReportController.cs",
@@ -430,11 +458,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\ReportController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:57:42.089Z"
+              "WhenOpened": "2026-01-03T21:57:42.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
@@ -442,11 +471,12 @@
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAPQAAAAAAAAAAADwv0YAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:38:29.893Z"
+              "WhenOpened": "2026-01-13T15:38:29.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DoctorMenu.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Menu\\DoctorMenu.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Menu\\DoctorMenu.cs",
@@ -454,23 +484,25 @@
               "RelativeToolTip": "ConsoleClient\\Menu\\DoctorMenu.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAAAowHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:32.29Z"
+              "WhenOpened": "2026-01-05T14:24:32.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleClient\\Program.cs",
               "ToolTip": "C:\\Users\\dmitr\\source\\repos\\Hospital\\ConsoleClient\\Program.cs",
               "RelativeToolTip": "ConsoleClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T16:44:20.206Z"
+              "WhenOpened": "2026-01-02T16:44:20.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "TokenAuthenticationHandler.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\WebApi\\Auth\\TokenAuthenticationHandler.cs",
               "RelativeDocumentMoniker": "WebApi\\Auth\\TokenAuthenticationHandler.cs",
@@ -478,11 +510,12 @@
               "RelativeToolTip": "WebApi\\Auth\\TokenAuthenticationHandler.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwEcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T21:11:16.022Z"
+              "WhenOpened": "2026-01-03T21:11:16.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\DTOs\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UserRegisterDto.cs",
@@ -494,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AppointmentStatus.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Domain\\Enums\\AppointmentStatus.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\AppointmentStatus.cs",
@@ -506,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AuditAct.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Domain\\Enums\\AuditAct.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\AuditAct.cs",
@@ -518,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HospitalDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Infrastructure\\Persistence\\HospitalDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\HospitalDbContext.cs",
@@ -526,12 +559,11 @@
               "RelativeToolTip": "Infrastructure\\Persistence\\HospitalDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T19:30:13.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T19:30:13.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AppointmentOptions.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Settings\\AppointmentOptions.cs",
               "RelativeDocumentMoniker": "Application\\Settings\\AppointmentOptions.cs",
@@ -543,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "InMemorySessionService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Services\\InMemorySessionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\InMemorySessionService.cs",
@@ -555,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "ReportResultDto.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\DTOs\\ReportResultDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ReportResultDto.cs",
@@ -567,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "IReportService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IReportService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IReportService.cs",
@@ -579,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "AuditLogQueryDto.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\DTOs\\AuditLogQueryDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\AuditLogQueryDto.cs",
@@ -591,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "IAuditService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IAuditService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAuditService.cs",
@@ -603,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
@@ -615,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ISessionService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\ISessionService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\ISessionService.cs",
@@ -627,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAppointmentService.cs",
@@ -639,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IPatientService.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Application\\Interfaces\\IPatientService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IPatientService.cs",
@@ -651,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "SqliteAuditRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\Hospital\\Infrastructure\\Repositories\\SqliteAuditRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SqliteAuditRepository.cs",

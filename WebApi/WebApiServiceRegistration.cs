@@ -21,7 +21,7 @@ public static class WebApiServiceRegistration
 
         // Register DbContext - connection string from configuration
         services.AddDbContextFactory<HospitalDbContext>(options =>
-        options.UseSqlite(configuration.GetConnectionString( "Default" ) ?? "Data Source=hospital.db" ));
+        options.UseSqlite(configuration.GetConnectionString( "Default" ) ?? "Data Source=./data/hospital.db"));
 
         services.AddSwaggerGen(options => // Enable authentication in Swagger
         {

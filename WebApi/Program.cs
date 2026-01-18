@@ -10,6 +10,12 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Force the server to listen on port 5084
+        builder.WebHost.ConfigureKestrel(options =>
+        {
+            options.ListenAnyIP(5084); // HTTP on 5084
+        });
+
         // Add services to the container.
         builder.Services.AddInfrastructure(builder.Configuration);
 

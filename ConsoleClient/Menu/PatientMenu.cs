@@ -153,7 +153,7 @@ internal class PatientMenu : IMenu
             string message = ex.Message;
 
             try {
-                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message;
+                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message ?? message;
             } catch { /* Ignore */ }
 
             AnsiConsole.MarkupLine( $"[red]Invalid request: { Markup.Escape(message) }[/]" );
@@ -165,7 +165,7 @@ internal class PatientMenu : IMenu
             string message = ex.Message;
 
             try {
-                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message;
+                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message ?? message;
             }
             catch { /* Ignore */ }
 

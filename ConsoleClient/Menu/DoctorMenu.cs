@@ -115,6 +115,10 @@ internal class DoctorMenu : IMenu
             await _requests.CloseAppointmentAsync(appointmentId, new CloseAppointmentRequest(notes));
             AnsiConsole.MarkupLine($"[green]Appointment closed successfully.[/]");
         }
+        catch (KeyNotFoundException)
+        {
+            AnsiConsole.MarkupLine("[red]Appointment does not exists![/]");
+        }
         catch (OperationCanceledException)
         {
             AnsiConsole.MarkupLine( "[red]Operation cancelled.[/]" );
@@ -125,7 +129,7 @@ internal class DoctorMenu : IMenu
 
             try
             {
-                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message;
+                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message ?? message;
             }
             catch { /* Ignore */ }
 
@@ -137,7 +141,7 @@ internal class DoctorMenu : IMenu
 
             try
             {
-                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message;
+                message = JsonConvert.DeserializeObject<AppointmentBookResultDto>(message).Message ?? message;
             }
             catch { /* Ignore */ }
 

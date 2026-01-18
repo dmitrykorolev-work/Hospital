@@ -11,9 +11,17 @@ public static class WebApiServiceRegistration
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
+
+        // Ensure directory exists
+        var directory = "./data";
+        if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+
         // Register DbContext - connection string from configuration
         services.AddDbContextFactory<HospitalDbContext>(options =>
-            options.UseSqlite(configuration.GetConnectionString( "Default" ) ?? "Data Source=hospital.db" ));
+        options.UseSqlite(configuration.GetConnectionString( "Default" ) ?? "Data Source=hospital.db" ));
 
         services.AddSwaggerGen(options => // Enable authentication in Swagger
         {
